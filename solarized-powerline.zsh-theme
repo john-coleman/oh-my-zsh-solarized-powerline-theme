@@ -85,8 +85,8 @@ PROMPT="
 "
 # username
 if [ $ZSH_POWERLINE_SHOW_USER = true ]; then
-	local USER="%n"
-    PROMPT="${PROMPT}${FG_COLOR_BLUE}${BG_COLOR_BASE3}${PADDING}${USER}"
+	local PROMPT_USER="%n"
+    PROMPT="${PROMPT}${FG_COLOR_BLUE}${BG_COLOR_BASE3}${PADDING}${PROMPT_USER}"
 	PADDING=' '
 fi
 
